@@ -1,0 +1,136 @@
+.Heading {
+  text-align: center;
+  position: relative;
+  margin: 50px 0px;
+}
+.small-heading {
+  font-size: 14px;
+  margin: 0;
+  color: #e7272d;
+  font-family: 'Pacifico', open-sans;
+}
+.main-heading::after {
+  content: '';
+  position: absolute;
+  right: 50%;
+  top: 70px;
+  /* bottom: -15px; */
+  height: 2px;
+  width: 50px;
+  background: #e7272d;
+}
+.resturant-img img {
+  width: -webkit-fill-available;
+}
+.res-name {
+  color: #231900;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.res-tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;;
+}
+.res-tag {
+  font-weight: 600;
+  font-size: 13px;
+  background: #f8f9fa;
+  margin-right: 2px;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.resturant-footer {
+  display: flex;
+  padding:10px 0;
+  border-top: 1px solid #aaa;
+  /* justify-content: space-between; */
+}
+.res-footer-right{
+    padding-left: 10px;
+}
+.resturant-body{
+    padding:20px
+}
+.resturant-box{
+    background: #fff;
+    margin-bottom: 40px;
+}
+.resturant-section{
+background-color:#F8F9FA;
+padding:50px 0 ;
+}
+.restaurant-details{
+  min-height: 400px;
+
+  padding:  0;
+}
+ .res-details-header{
+     width: 98.7vw;
+     overflow: hidden;
+
+}
+ .res-details-header img{
+    width: -webkit-fill-available;
+
+}
+.header-end div div:nth-child(2){
+  padding-left: 20px;
+}
+.header-end{
+  background: #fff;
+}
+.header-end h3{
+  font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.header-end p{
+  color: #757575;
+  margin: 0;
+}
+.header-end img{
+  width: 70px;
+}
+.res-details-body{
+  background: #F2F2F2;
+  padding: 50px 0;
+  width: 100%;
+  min-height: 320px;
+}
+.res-info h6{
+  font-size:16px;
+line-height:29px;
+color:#757575
+}
+.res-info h1{
+  
+font-weight:600;
+font-size:20px;
+line-height:30px;
+color:#231900;
+line-height:29px;
+
+}
+.res-timing{
+  font-size: 20px;
+  color: #757575;
+}
+.carousel-control-next, .carousel-control-prev{
+  color:#030303 !important
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  filter: brightness(0) !important;
+}
+.carousel-caption{
+  color: #030303 !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff !important;
+  background-color: #E7272D !important;
+}
+.restaurant-details .nav-link {
+
+  color: #E7272D !important;}

@@ -1,0 +1,7 @@
+.navbar-collapse {
+   
+    flex-grow: 0 !important;
+}
+.header nav{
+    background: #151414;
+}
